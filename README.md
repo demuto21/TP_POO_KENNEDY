@@ -2,7 +2,7 @@ FEZE DJOUMESSI FRED TERELL 3GI
 
 Le projet que j'ai développé est une application Java qui permet de gérer des équipements (téléphones) d'occasion. Il est conçu pour vérifier si un équipement a été signalé comme volé en se basant sur son numéro de série. Voici les principales fonctionnalités :
 
-1. Base de données MySQL : Une base de données appelée `EquipementDB` a été créée avec une table `Equipement`, qui contient les informations sur chaque équipement (nom, type, marque, modèle, numéro de série, statut de volé/non-volé).
+1. Base de données MySQL : Une base de données appelée EquipementDB a été créée avec une table Equipement, qui contient les informations sur chaque équipement (nom, type, marque, modèle, numéro de série, statut de volé/non-volé).
 
 2. Classes DAO : Des classes DAO (Data Access Object) permettent d'interagir avec la base de données. Elles gèrent l'ajout de nouveaux équipements, la recherche par numéro de série et la mise à jour du statut des équipements (par exemple, marquer un équipement comme volé).
 
